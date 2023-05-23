@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AKUN | Website Under Maintenance</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./assets/agug.jpg" type="image/x-icon" />
+    <link rel="icon" href="./assets/agug.jpg" type="image/png" />
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0px;
+        font-family: raleway;
+      }
+      .header {
+        width: 100%;
+        height: 50px;
+        background-color: #ff6263;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position: fixed;
+        top: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        z-index: 100;
+      }
+      .header1 {
+        width: 100%;
+        height: 50px;
+      }
+
+      .image-container {
+        position: relative;
+      }
+
+      .text-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.82 409.2" id="coming-soon">
+      <g data-name="Layer 2">
+        <g data-name="Layer 1">
+          <rect width="48.59" height="48.59" x="112.59" y="72.29" fill="none" stroke="#ffcd52" stroke-linecap="round" stroke-linejoin="round" rx="5.52" transform="rotate(45 136.877 96.576)"></rect>
+          <rect width="97.06" height="98.1" x="314.46" y="38.3" fill="#c1e3f7" rx="13" transform="rotate(15.64 363.086 87.379)"></rect>
+          <rect width="114.32" height="114.32" x="305.83" y="30.19" fill="none" stroke="#008ef8" stroke-linecap="round" stroke-linejoin="round" rx="13" transform="matrix(.96 .27 -.27 .96 37 -94.65)"></rect>
+          <path fill="#ffcd52" d="M96.8 348.54a37.66 37.66 0 0 1-37.68-37.68v-15h14v15a23.68 23.68 0 0 0 47.36 0v-63.1a37.73 37.73 0 0 1 37.69-37.68h11.66v14h-11.66a23.71 23.71 0 0 0-23.69 23.68v63.1a37.72 37.72 0 0 1-37.68 37.68Z"></path>
+          <path fill="#008ef8" d="M164.64 87.35h175.53v290.82H164.64z"></path>
+          <rect width="119.53" height="86.44" x="192.64" y="117.82" fill="#fff" rx="5"></rect>
+          <rect width="97.41" height="19.29" x="203.7" y="213.46" fill="#ffcd52" rx="2"></rect>
+          <rect width="54.12" height="15.53" x="225.35" y="240.76" fill="#c1e3f7" rx="2"></rect>
+          <rect width="29.24" height="16" x="280.94" y="263.11" fill="#0234c1" rx="2"></rect>
+          <rect width="29.24" height="16" x="194.64" y="263.11" fill="#0234c1" rx="2"></rect>
+          <path fill="#ff5061" d="M164.64 287.35h175.53v16.94H164.64z"></path>
+          <rect width="116.71" height="31.06" x="194.05" y="329.23" fill="#ffcd52" rx="2"></rect>
+          <path fill="#ff5061" d="M145.58 378.17h213.65v30.59H145.58z"></path>
+          <rect width="58.12" height="39.06" x="244.05" y="154.99" fill="#c1e3f7" rx="2"></rect>
+          <rect width="32.83" height="65.88" x="202.64" y="128.17" fill="#ffcd52" rx="2"></rect>
+          <rect width="58.12" height="17.41" x="244.05" y="128.17" fill="#0234c1" rx="2"></rect>
+          <path
+            fill="#0234c1"
+            d="m100.25 236.33-5.53-4.58a7.91 7.91 0 0 1-2.86-6.21l.56-32.27c0-1.19 0-2.37-.07-3.56-.16-2.24.86-10.65 18.64-32-1.15-.06-2.92-1.17-4.56-2.65s-2.73-3.3-2.71-4.48c-2.17 2.6-18.36 22.38-21.6 34.54a18.28 18.28 0 0 1-7.44 10.6C64.48 202.53 48 219 52.78 252.65a2.41 2.41 0 0 0 3.43 1.84 2.46 2.46 0 0 1 1-.24 2.41 2.41 0 0 1 2.41 2.52l-1.86 43h16.93l.18-2.89a5.78 5.78 0 0 1 4.4-5.25l7.49-1.83a7.71 7.71 0 0 0 5.87-7.8l-1-21.18a6.72 6.72 0 0 1 6.15-7 7.73 7.73 0 0 0 7.06-7.68 12.66 12.66 0 0 0-4.61-9.78ZM83.1 282.4H74l-2-21.91L84.46 257Z"
+          ></path>
+          <path fill="#ffcd52" d="M65.84 243.82s-9-19.06 12.31-36.32v35.72Z"></path>
+          <path
+            fill="#2428bb"
+            d="M78.15 210.48a21.73 21.73 0 0 1-3.76 3.11 21.24 21.24 0 0 1-4.32 2.29 21.49 21.49 0 0 1 3.77-3.12 21.71 21.71 0 0 1 4.31-2.28ZM78.15 213.61a37 37 0 0 1-5.21 3.89 36.73 36.73 0 0 1-5.75 3.05 42.38 42.38 0 0 1 11-6.94ZM78.15 217a51.78 51.78 0 0 1-6.15 4.52 51.71 51.71 0 0 1-6.7 3.67 50.9 50.9 0 0 1 6.16-4.51 53 53 0 0 1 6.69-3.68ZM78.15 220.86a59.58 59.58 0 0 1-6.67 4.77 59.74 59.74 0 0 1-7.21 3.93 58.88 58.88 0 0 1 6.73-4.78 59.54 59.54 0 0 1 7.15-3.92ZM78.15 225.7a59.5 59.5 0 0 1-6.84 4.68A60.87 60.87 0 0 1 64 234.2a59.5 59.5 0 0 1 6.84-4.68 61.62 61.62 0 0 1 7.31-3.82ZM78.15 230.3a57.36 57.36 0 0 1-6.66 4.47 55.92 55.92 0 0 1-7.17 3.61 55.71 55.71 0 0 1 6.68-4.47 58.64 58.64 0 0 1 7.15-3.61ZM78.15 234.84A48.37 48.37 0 0 1 72 239a48.93 48.93 0 0 1-6.68 3.33 48.29 48.29 0 0 1 6.18-4.19 49 49 0 0 1 6.65-3.3ZM78.15 239.76a15.79 15.79 0 0 1-6.92 3.8 14 14 0 0 1 3.22-2.34 14.21 14.21 0 0 1 3.7-1.46Z"
+          ></path>
+          <path
+            fill="none"
+            stroke="#0234c1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m221.27 12.72-24.57 1.13M209.55 25.57 208.42 1M230.1 22.82l1.28 21.35M241.41 32.86l-21.35 1.27M25.57 250.79 1 251.92M13.85 263.64l-1.13-24.57M34.4 260.89l1.28 21.35M45.71 270.93l-21.35 1.27"
+          ></path>
+          <path fill="#ff5061" d="M145.41 87.35h213.64l.18 18.47H145.58l-.17-18.47z"></path>
+          <path fill="#d3deef" d="m405.45 51.05 1.15 21.36M416.71 61.16l-21.36 1.15"></path>
+          <ellipse cx="396.97" cy="374.47" fill="none" stroke="#ffcd52" stroke-miterlimit="10" rx="19.68" ry="34.1"></ellipse>
+          <path fill="#ffcd52" d="M413.85 389.47c2.8-6.47.69-10.43.69-15 0-9.63-3.22-20.53-9-27.37a52.43 52.43 0 0 0-2.46 15.13c.04 9.63 5.03 20.4 10.77 27.24Z"></path>
+          <ellipse cx="427.25" cy="362.3" fill="#fff" rx="19.68" ry="34.1"></ellipse>
+          <path fill="#ffcd52" d="M378.93 375.54c0 3.81-1.54 6.85.57 12 9-7.22 15.83-19.32 15.83-31.79a55.55 55.55 0 0 0-1.9-13c-9.05 7.15-14.5 20.32-14.5 32.79Z"></path>
+          <ellipse cx="372.14" cy="353.79" fill="#fff" rx="19.68" ry="34.1"></ellipse>
+          <path
+            fill="none"
+            stroke="#ffcd52"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M396.97 408.57v-51.14M396.97 377.46l-7.97-9.11M396.97 388.34l-11.48-13.13M396.97 399.55l-11.86-13.56M396.97 377.48l9.67-11.05M396.97 388.36l11.86-13.56M396.97 399.57l11.86-13.56"
+          ></path>
+          <ellipse cx="372.14" cy="353.79" fill="none" stroke="#008ef8" stroke-miterlimit="10" rx="19.68" ry="34.1"></ellipse>
+          <path
+            fill="none"
+            stroke="#008ef8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M372.14 336.75v71.95M372.14 356.78l-9.65-11.03M372.14 367.66l-11.86-13.56M372.14 378.87l-11.86-13.56M372.14 356.8l9.66-11.05M372.14 367.68 384 354.12M372.14 378.89 384 365.33"
+          ></path>
+          <ellipse cx="427.25" cy="362.3" fill="none" stroke="#ff5061" stroke-linecap="round" stroke-linejoin="round" rx="19.68" ry="34.1"></ellipse>
+          <path
+            fill="none"
+            stroke="#ff5061"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M427.25 345.26V408.7M427.25 365.29l-9.65-11.03M427.25 376.17l-11.86-13.57M427.25 387.38l-11.86-13.56M427.25 365.31l9.67-11.05M427.25 376.19l11.86-13.56M427.25 387.4l11.86-13.56"
+          ></path>
+          <path fill="none" stroke="#0234c1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m102.9 151.31 8.09 6.73"></path>
+          <path fill="none" stroke="#545454" stroke-linecap="round" stroke-linejoin="round" d="M57.5 408.7h389.82"></path>
+        </g>
+      </g>
+    </svg> -->
+
+    <body>
+      <!--Header-->
+      <div class="header">
+        <img src="./assets/ndasjpg.jpg" style="width: 100px; height: 50px" />
+        <h1 style="margin-left: 30%; margin-top: -47px; font-size: 40px; font-weight: bold">SIGUNG</h1>
+        <!--Ganti Logo pada bagian src-->
+      </div>
+      <div class="header1"></div>
+
+      <style>
+        .money1 {
+          width: 90%;
+          height: 80px;
+          background-color: #ff6263;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 20px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          border-radius: 10px;
+        }
+        .money2 {
+          width: 50%;
+          height: 80px;
+          float: left;
+        }
+        .money3 {
+          width: 85%;
+          height: 65px;
+          background-color: white;
+          margin-right: auto;
+          margin-left: auto;
+          border-radius: 10px;
+        }
+      </style>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pengaturan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Keluar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Menu-->
+      <form>
+        <div class="mb-4 mx-auto px-4">
+          <label for="exampleInputEmail1" class="form-label font-bold">Alamat Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+          <div id="emailHelp" class="form-text">Gunakan Alamat Email yang Sesuai</div>
+        </div>
+        <div class="mb-3 px-4">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input mx-2" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1">Ingat saya</label>
+        </div>
+        <button type="submit" class="btn btn-primary mx-auto d-block">Masuk</button>
+      </form>
+
+      <style>
+        .menu1 {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 20px;
+        }
+      </style>
+
+      <!--iklan1-->
+
+      <style>
+        .iklan1 {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 20px;
+        }
+        .iklan2 {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto;
+          border-radius: 10px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+      </style>
+
+      <!--catalog-->
+
+      <style>
+        .pilihan1 {
+          width: 93%;
+          display: flex;
+          overflow: auto;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        .pilihan2 {
+          width: 40%;
+          float: left;
+          flex-shrink: 0;
+          margin: 5px;
+        }
+      </style>
+
+      <!--iklan2-->
+
+      <style>
+        .iklan3 {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 40px;
+        }
+        .iklan4 {
+          width: 90%;
+          margin-right: auto;
+          margin-left: auto;
+          border-radius: 10px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+      </style>
+
+      <!-- <div class="iklan3">
+        <p style="font-size: 4vw; font-weight: bold">Baca Juga materi ini</p>
+      </div>
+
+      <div class="iklan4">
+        <a href="#"
+          >
+          <img src="./assets/materingisor.jpg" style="width: 100%; border-radius: 10px" />
+        </a> 
+      </div>
+-->
+      <!--Footer-->
+
+      <style>
+        .footer1 {
+          width: 100%;
+          height: 60px;
+          background-color: #ff6263;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          position: fixed;
+          bottom: 0px;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+        .footer2 {
+          width: 100%;
+          height: 70px;
+        }
+      </style>
+
+      <div class="footer1">
+        <div class="container text-center">
+          <div class="row row-cols-4">
+            <div class="col">
+              <button style="width: 100%; height: 80px; border-style: none; background-color: transparent" onclick="window.location.href='./home.html'">
+                <!--Masukan Link pada bagian href-->
+                <img src="./assets/house-chimney-solid.svg" style="width: 40px; height: 40px; filter: invert(100%)" /><!--Ganti Icon pada bagian src-->
+                <p style="font-size: 3vw; color: white">Beranda</p>
+              </button>
+            </div>
+            <div class="col">
+              <a href="./cari.html">
+                <button style="width: 100%; height: 83px; border-style: none; background-color: transparent" onclick="window.location.href='#'">
+                  <!--Masukan Link pada bagian href-->
+                  <img src="./assets/magnifying-glass-solid.svg" style="width: 40px; height: 40px; filter: invert(100%)" /><!--Ganti Icon pada bagian src-->
+                  <p style="font-size: 3vw; color: white">Cari</p>
+                </button>
+              </a>
+            </div>
+            <div class="col">
+              <button style="width: 100%; height: 83px; border-style: none; background-color: transparent" onclick="window.location.href='#'">
+                <!--Masukan Link pada bagian href-->
+                <img src="./assets/bars-solid.svg" style="width: 40px; height: 40px; filter: invert(100%)" /><!--Ganti Icon pada bagian src-->
+                <p style="font-size: 3vw; color: white">Materi</p>
+              </button>
+            </div>
+            <div class="col">
+              <a href="./akun.html">
+                <button style="width: 100%; height: 83px; border-style: none; background-color: transparent" onclick="window.location.href='#'">
+                  <!--Masukan Link pada bagian href-->
+                  <img src="./assets/user-solid.svg" style="width: 40px; height: 40px; filter: invert(100%)" /><!--Ganti Icon pada bagian src-->
+                  <p style="font-size: 3vw; color: white">Akun</p>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="iklan3">
+        <h1 style="font-size: 9vw; font-weight: bold; text-align: center">COMING SOON</h1>
+      </div>
+      <div class="footer2"></div> -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    </body>
+  </body>
+</html>
